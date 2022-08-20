@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 //if we are developing spring MVC application then we can use @Controller annotation but here we are using RestApi so we have to
-@RestController   // provide @Restcontroller annotation internally it converts a java object into JSON
+@RestController   // provide @Restcontroller annotation internally it converts a java object into JSON   @Responsebody  + @Controller
 @RequestMapping("/post")
 public class PostController {
 
